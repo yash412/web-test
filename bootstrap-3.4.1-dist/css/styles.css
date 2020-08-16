@@ -1,14 +1,13 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #61122f;
+	background-color: #00FFFF;
 	font-family: 'Oxygen', sans-serif;
-	font-family: 'Lora', serif;
 }
 
 /** HEADER **/
 #header-nav {
-	background-color: #f6b319;
+	background-color:  #FFFAFA;
 	border-radius: 0;
 	border: 0;
 }
@@ -24,9 +23,9 @@ body {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /* Company name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #000000;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -38,7 +37,7 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+.navbar-brand p { /* ISO cert */
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
@@ -47,3 +46,38 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FF0000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Develop */
+  color:    #000000;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
